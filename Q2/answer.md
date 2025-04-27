@@ -1,4 +1,4 @@
-1 - by verifying the dns in /etc/reslv.cof and verifying the 8.8.8.8 dns using dig command we get the same result which is no respone (NXDOMAIN) if the respones from our dns and 8.8.8.8 dns are same therefore no expected dns issues as shown in verify dns resolution.png image
+1 - by verifying the dns in /etc/reslv.cof and verifying the 8.8.8.8 dns using nslookup command we get the same result which is no respone (NXDOMAIN) if the respones from our dns and 8.8.8.8 dns are same therefore no expected dns issues as shown in verify dns resolution.png image
 
 ![alt text](verify-dns-resolution.png)
 
